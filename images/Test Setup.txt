@@ -4,3 +4,15 @@
 -PASSIVE BUZZER (PIN 18)
 -FEMALE RCA JACK (PIN 25) (ONLY COMPOSITE VIDEO data AND GND)
 -BREADBOARD
+
+Flash the sketch to the ESP32.
+Connect GPIO25 to the composite video input of your CRT TV.
+Connect a passive buzzer to GPIO18.
+Power on the ESP32.
+
+On your phone, join the Wi-Fi network:
+SSID: ESP32-TV-OS
+Password: CRTremote8
+Open a browser and go to:
+http://192.168.4.1
+Use the on-screen D-pad + Select / Back buttons to navigate and play.
